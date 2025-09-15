@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Elijah Jjemba</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Feeback</a></li>
+            </ul>
+        </nav>
+        <div class="auth">
+            <button class="authBtn" id="LogInBtn">Log In</button>
+            <button class="authBtn">Sign Up</button>
+        </div>
+        <div class="login-form" id="LoginForm">
+            <div class="Top">
+                <h3>Login</h3>
+                <div class="CloseBtn" id="CloseBtn">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <form action="#">
+                <div class="Authorisation">
+                    <input type="text" name="Username" id="Username" placeholder="Username/Email" required>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                </div>
+                <div class="Forget">
+                    <div>
+                        <input type="checkbox" name="Remember" id="Remember">
+                        <label for="Remember">Remember Me</label>
+                    </div>
+                    <div>
+                        <a href="#">Forgot Password</a>
+                    </div>
+
+                </div>
+                <button type="submit" class="SubmitBtn">Login</button>
+
+            </form>
+        </div>
+    </header>
+
+    <main class="gradient-background">
+        <section class="hero">
+            <h1>Welcome to my website</h1>
+            <span class="DescContainer">
+                <p>
+                    This website demonstrates the use CSS transitions and keyframes, as well as Javascript to respond
+                    to
+                    user interaction and make the website dynamic</p>
+            </span>
+
+            <button id="scroll" class="scroll">
+                <div class=" scrollObject"></div>
+            </button>
+            <h5>Click here to scroll</h5>
+
+        </section>
+        <section id="CardSection" class="CardDisplay">
+
+            <div class="card">
+                <div class="card-Inner">
+                    <div class="card-front">
+                        <h2>Hover over me</h2>
+                    </div>
+                    <div class="card-back">
+                        <h1>Card 1 </h1>
+                        <p>When the cards are hovered , they flip to reveal the content on the back</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-Inner">
+                    <div class="card-front">
+                        <h2>Hover over me</h2>
+                    </div>
+                    <div class="card-back">
+                        <h1>Card 2</h1>
+                        <p>When the cards are hovered , they flip to reveal the content on the back</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-Inner">
+                    <div class="card-front">
+                        <h2>Hover over me</h2>
+                    </div>
+                    <div class="card-back">
+                        <h1>Card 3</h1>
+                        <p>When the cards are hovered , they flip to reveal the content on the back</p>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
