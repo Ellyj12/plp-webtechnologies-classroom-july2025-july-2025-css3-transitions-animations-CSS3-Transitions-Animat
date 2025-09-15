@@ -21,7 +21,7 @@ LoginBtn.addEventListener('click', () => toggleElementVisibility(LoginForm))
 // Hide login modal when close button is clicked
 CloseBtn.addEventListener('click', () => toggleElementVisibility(LoginForm))
 
-// Scroll section2 into view smoothly when scroll button 
+// Scroll CardSection into view smoothly when scroll button 
 ScrollBtn.addEventListener('click', function () {
     CardSection.scrollIntoView({ behavior: 'smooth' })
 })
